@@ -32,6 +32,8 @@ st.header(emoji3)
 # #select number of repetitions
 e_columns = st.number_input('Select Number of Repetitions:',1,10,3)
 
+st.write(emoji1, emoji2, emoji3)
+
 repeat = (((emoji1, emoji2, emoji3) * e_columns)[:e_columns])
 repeat
 
